@@ -6,7 +6,7 @@
   <link href="https://sailvr.github.io/atom.xml" rel="self"/>
   
   <link href="https://sailvr.github.io/"/>
-  <updated>2020-03-07T04:07:39.016Z</updated>
+  <updated>2021-03-02T13:04:50.102Z</updated>
   <id>https://sailvr.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>teraherz</title>
+    <link href="https://sailvr.github.io/2021/03/02/teraherz/"/>
+    <id>https://sailvr.github.io/2021/03/02/teraherz/</id>
+    <published>2021-03-02T13:03:39.000Z</published>
+    <updated>2021-03-02T13:04:50.102Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="太赫兹主动成像系统研究"><a href="#太赫兹主动成像系统研究" class="headerlink" title="太赫兹主动成像系统研究"></a>太赫兹主动成像系统研究</h1><h2 id="绪论"><a href="#绪论" class="headerlink" title="绪论"></a>绪论</h2><ul><li>无损的主动成像系统</li></ul><p>低频Thz：信号穿透性强但空间分辨率低</p><p>高频Thz：信号空间分辨率高但穿透性较弱</p><p>高低双波段Thz无损检测仪：图像融合技术 高分辨率与强穿透性</p><p>通过<strong>频域滤波</strong>实现干涉消除</p><p>系统：低频110.4GHz和高频220.8GHz俩个波段的本振源及超外差检测器组成。空间分辨率达3nm</p><p>结果：系统能穿透泡沫隔热材料并获得材料与金属板粘合处的二维太赫兹图像</p><ul><li>人体安检的双焦点的THz像扫描主动成像系统</li></ul><p>简单面型参数变化或成像距离的变化即可实现双焦点成像</p><p>美中不足：不能在面型中增加高次项以进一步优化成像效果</p><ul><li>双焦点反射天线格里高利成像系统</li></ul><p>系统工作频率220GHz：全视场范围内的分辨率均优于3cm</p><p>650GHz：最优点分辨率0.85cm，最差点分辨率应优于1.02cm</p><h1 id="Thz技术"><a href="#Thz技术" class="headerlink" title="Thz技术"></a>Thz技术</h1><ul><li>简介</li></ul><p>太赫兹：波长3mm到10um，频率0.1THz~10THz</p><p>低频段：电子学研究范畴</p><p>高频段：光学研究范畴</p><p>THz辐射主要特征：非破坏性、穿透性、频谱分辨特性、宽带特性</p><ul><li>产生和检测</li></ul><p><strong>THz源</strong>：任何一个温度且发射率大于零的物质都可以成为一个最简单的THz源（普朗克黑体辐射定律指出）</p><p>自由电子激光源：信号较强、覆盖的频率范围较宽，但体积较大、功耗高，在较高的功率输出的同时体积较小，只能输出低频信号</p><p>脉冲THz源：常温下获得很高的信噪比的THz信号，且频率覆盖jih8u整个THz波普范围</p><p>基于半导体的传统固态源：实验室型仪器部件</p><p><strong>THz检测器</strong></p><p>相干（外差）检测</p><p>非相干（直接）检测</p><p>（１）相干检测器能检测出的调制信号；</p><p>（２）相干检测器的噪声主要来源于本振功率波动而不是背景辐射，可以和背景辐射明显区分；</p><p>（３）和非相干检测相比，相干检测只需要很小的输入信号功率就可以检测出来更微弱的信号；</p><p>（４）相干检测器要求所有波束的极化方向，模式，直径均相同，波阵面有相同的曲率以达到好的耦合效率；</p><p>（５）目前THz源的发展还难以支撑形成大规模阵列相干检测器所需的较大本振功率的本振源。</p><ul><li>耦合与传输</li></ul><p>波导</p><p>光纤</p><p>准光系统</p><ul><li>THz系统装调测试</li></ul><p>利用THz波长远长于光波长的特点，通过借鉴光学装调方案对准光学系统装调后利用THz测试仪器微调</p><ul><li>主动成像与被动成像对比</li></ul><p>光波段：成像主要依靠物体漫反射</p><p>THz波段：成像主要依靠反射</p><ul><li>装调测试</li></ul><p>利用太赫兹波长远长于光波长的特点，通过借鉴光学装调方案对准光学系统装调后利用THz测试仪器微调</p><h2 id="双波段THz无损检测系统"><a href="#双波段THz无损检测系统" class="headerlink" title="双波段THz无损检测系统"></a>双波段THz无损检测系统</h2><p>无损检测：无损探伤</p><ul><li>THz波</li><li><ul><li>适合被检材料：非极性材料，如泡沫塑料，电介质材料，纸箱布匹等</li><li>优势：相干测量分辨折射率的微小区别；检测泡沫材料</li><li>缺陷深度不易确定</li></ul></li><li>红外波</li><li><ul><li>适合被检材料：导热性较好的材料</li><li>检测速度快，可以明确较浅的缺陷的深度</li><li>检测深度不够深</li></ul></li></ul><p><strong>无损检测原理</strong>：采用双波段太赫兹THz信号进行检测</p><p>低频太赫兹辐射具有更大的穿透性，而高频的太赫兹波可以提供更高的空间分辨率</p><p>使用相同的空间分辨率，高频的太赫兹波可以获得更长的焦深，这样成像分辨率受到缺陷深度的影响较小</p><p><strong>THz源及检测器方案</strong></p><p>THz源及检测器是双波段THz无损检测系统的核心重要组件。THz源为检测系统提供THz波，其发射功率越大，检测器接收到的能量越高（经过准光系统、大气水汽吸收及样品衰减等环节后），在其他条件同样的情况下系统获得的信噪比更高，因此更有利于缺陷的检测。</p><p><strong>双波段THz无损检测实现</strong></p><ul><li>电子学连续波THz源</li></ul><p>THz源采用本地PDRO输出低频信号后经倍频的方式实现输出</p><ul><li>准光学系统装调</li></ul><p>红外及可见光系统装调中常用的干涉法不适用于THz成像系统</p><ul><li>图像干涉法去除及融合处理</li></ul><p>基于小波分解的图像融合过程，首先对每一幅源图像进行小波变换，建立各图像的小波塔形分解。然后对各分解层分别进行融合处理，各分解层上的不同频率分量采用不同的融合算子进行融合处理，接着得到融合后的小波金字塔。最后对融合后所得的小波金字塔进行小波逆变换，所得重构图像即为融合图像</p><p>若在源与检测器的集成研制中采用同一本振信号，则可以在信号处理中引入相位信号处理，则可以进一步提高系统的分辨率及信噪比。</p><h2 id="双焦点THz主动成像系统设计"><a href="#双焦点THz主动成像系统设计" class="headerlink" title="双焦点THz主动成像系统设计"></a>双焦点THz主动成像系统设计</h2><p>采用像方扫描以减小扫描镜尺寸，实现更快速的扫描</p><h2 id="双焦点THz主动成像验证系统"><a href="#双焦点THz主动成像验证系统" class="headerlink" title="双焦点ＴＨｚ主动成像验证系统"></a>双焦点ＴＨｚ主动成像验证系统</h2><p><strong>源于检测器选型</strong></p><p>设备调试阶段：220GHz连续波THz源及直检式THz检测器</p><p>双焦点功能验证完后：650GHz连续波THz源于检测器直接替换</p><p><strong>成像系统信号处理</strong></p><p>为优化成像结果，将VDI直检式检测器如前文所述变更为外差检测器</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;太赫兹主动成像系统研究&quot;&gt;&lt;a href=&quot;#太赫兹主动成像系统研究&quot; class=&quot;headerlink&quot; title=&quot;太赫兹主动成像系统研究&quot;&gt;&lt;/a&gt;太赫兹主动成像系统研究&lt;/h1&gt;&lt;h2 id=&quot;绪论&quot;&gt;&lt;a href=&quot;#绪论&quot; class=&quot;head</summary>
+      
+    
+    
+    
+    <category term="科研" scheme="https://sailvr.github.io/categories/%E7%A7%91%E7%A0%94/"/>
+    
+    
+    <category term="太赫兹" scheme="https://sailvr.github.io/tags/%E5%A4%AA%E8%B5%AB%E5%85%B9/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
